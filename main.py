@@ -2,7 +2,7 @@ import os
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, CallbackQueryHandler, ContextTypes
 
-TOKEN = os.getenv("9112824032:AAGGm_aLoDFiYUeVrGJEXLu6I9IM8OvXwjU")
+TOKEN = os.getenv("9112824032:AAHo2r7DzuVSVeQ_A_QCpVJ1ehU98dqBGi8")
 
 # Demo data - pore tumi bodlate parbe
 BALANCE = {}
