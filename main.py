@@ -1,7 +1,7 @@
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update
 from telegram.ext import Application, CommandHandler, CallbackQueryHandler, ContextTypes
 
-TOKEN = "EKHANE TOMAR TOKEN BOSAO"
+TOKEN = "9112824032:AAGGm_aLoDFiYUeVrGJEXLu6I9IM8OvXwjU"
 URL = "https://t.me/suvosk7869"
 
 CART = chr(0x1F6D2)
