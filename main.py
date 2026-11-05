@@ -1,8 +1,7 @@
-import os
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update
 from telegram.ext import Application, CommandHandler, CallbackQueryHandler, ContextTypes
 
-TOKEN = os.environ.get("BOT_TOKEN", "9112824032:AAGGm_aLoDFiYUeVrGJEXLu6I9IM8OvXwjU")
+TOKEN = "EKHANE TOMAR TOKEN BOSAO"
 URL = "https://t.me/suvosk7869"
 
 CART = chr(0x1F6D2)
@@ -154,12 +153,8 @@ async def all_buttons(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await q.edit_message_text(txt, reply_markup=home_buttons_en())
         return
 
-def main():
-    app = Application.builder().token(TOKEN).build()
-    app.add_handler(CommandHandler("start", start))
-    app.add_handler(CallbackQueryHandler(all_buttons))
-    print("READY SELLER INFO + BORO SUPPORT")
-    app.run_polling()
-
-if __name__ == "__main__":
-    main()
+app = Application.builder().token(TOKEN).build()
+app.add_handler(CommandHandler("start", start))
+app.add_handler(CallbackQueryHandler(all_buttons))
+print("READY SELLER INFO + BORO SUPPORT")
+app.run_polling()
